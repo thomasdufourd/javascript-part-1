@@ -1,12 +1,17 @@
 module.exports = add;
 
 function add(a, b) {
-    return null;
+    /*
+
+      Write some code here !!!
+
+     */
+    return null; // This can be deleted as well ;)
 }
 
 
 /*
-   Utilities functions
+   Utilities functions (just for helping)
  */
 
 // OBS: this is quite a ugly helper method: DELETE ME!

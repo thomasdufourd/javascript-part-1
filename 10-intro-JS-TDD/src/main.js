@@ -1,12 +1,18 @@
 module.exports = add;
 
 function add(a, b) {
-    /*
 
-      Write some code here !!!
+    if (isUndefined(a) || isUndefined(b)) {
+        return 0;
+    }
 
-     */
-    return null; // This can be deleted as well ;)
+    if (!isANumber(a)) {
+        return b;
+    } else if (!isANumber(b)) {
+        return a;
+    } else {
+        return a + b;
+    }
 }
 
 
